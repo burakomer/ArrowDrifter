@@ -27,6 +27,7 @@ public class TestPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SetTrigger("ShootRequest");
+            shooting = true;
         }
 
         foreach (Animator anim in animators)
@@ -46,7 +47,7 @@ public class TestPlayer : MonoBehaviour
     public void Shoot()
     {
         Debug.Log("Arrow shot!");
-        StartCoroutine(ShotDelay(2f / (shootSpeed * 10f)));
+        StartCoroutine(ShotDelay(1.5f / (shootSpeed * 10f)));
     }
 
     public IEnumerator ShotDelay(float delay)
