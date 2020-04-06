@@ -6,7 +6,7 @@ using UnityEngine;
 public class PhysicsController2D : MonoBehaviour
 {
     private const float skinWidth = .015f;
-    private const float minJumpDistance = 0.9f;
+    private const float minJumpDistance = 1f;
     
     public int horizontalRayCount = 4;
     public int verticalRayCount = 4;
@@ -25,7 +25,7 @@ public class PhysicsController2D : MonoBehaviour
         CalculateRaySpacing();
     }
 
-    public void Move(Vector3 velocity)
+    public Vector3 Move(Vector3 velocity)
     {
         UpdateRaycastOrigins();
         collisions.Reset();
@@ -38,6 +38,8 @@ public class PhysicsController2D : MonoBehaviour
         transform.Translate(velocity);
 
         Physics2D.SyncTransforms();
+
+        return velocity;
     }
 
     private void HorizontalCollisions(ref Vector3 velocity)

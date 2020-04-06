@@ -92,6 +92,153 @@ TextureImporter:
   - first:
       213: -2593389432115497322
     second: BowFront_29
+  - first:
+      213: 516212081741886800
+    second: BowFront_0
+  - first:
+      213: 1690163010728667533
+    second: BowFront_1
+  - first:
+      213: -6495877534184558961
+    second: BowFront_2
+  - first:
+      213: -4282184226062196152
+    second: BowFront_3
+  - first:
+      213: 8345286714607983546
+    second: BowFront_4
+  - first:
+      213: 1070337747810381880
+    second: BowFront_5
+  - first:
+      213: 1501817819403088538
+    second: BowFront_6
+  - first:
+      213: 5094534981036196986
+    second: BowFront_7
+  - first:
+      213: 4538473970697724433
+    second: BowFront_8
+  - first:
+      213: 6431903023508856613
+    second: BowFront_9
+  - first:
+      213: -4198667402708915808
+    second: BowFront_10
+  - first:
+      213: -5549723073370423757
+    second: BowFront_11
+  - first:
+      213: -8331584442220259989
+    second: BowFront_12
+  - first:
+      213: 5957704098326474344
+    second: BowFront_13
+  - first:
+      213: -6986327571742441748
+    second: BowFront_14
+  - first:
+      213: -558258355360911353
+    second: BowFront_15
+  - first:
+      213: 4802018609926719872
+    second: BowFront_16
+  - first:
+      213: -1938230127380063855
+    second: BowFront_17
+  - first:
+      213: 3602672298794351851
+    second: BowFront_18
+  - first:
+      213: -3679003734559631230
+    second: BowFront_19
+  - first:
+      213: -7843014350798221918
+    second: BowFront_20
+  - first:
+      213: -1235853455082160588
+    second: BowFront_21
+  - first:
+      213: 4484148330351532446
+    second: BowFront_22
+  - first:
+      213: -6480493816237234761
+    second: BowFront_23
+  - first:
+      213: 170825511503871048
+    second: BowFront_24
+  - first:
+      213: -6814038157221632793
+    second: BowFront_25
+  - first:
+      213: 98096704739921474
+    second: BowFront_26
+  - first:
+      213: -7032523106375110
+    second: BowFront_27
+  - first:
+      213: 4870301772114211934
+    second: BowFront_28
+  - first:
+      213: 7213115318765124630
+    second: BowFront_29
+  - first:
+      213: -3614678430770159273
+    second: BowFront_30
+  - first:
+      213: 2702960825278420885
+    second: BowFront_31
+  - first:
+      213: 2724981564854888431
+    second: BowFront_32
+  - first:
+      213: -1775081801388791233
+    second: BowFront_33
+  - first:
+      213: -2802596412832000395
+    second: BowFront_34
+  - first:
+      213: 4995837444211553456
+    second: BowFront_35
+  - first:
+      213: 1489635798695685922
+    second: BowFront_36
+  - first:
+      213: 5420529916706359435
+    second: BowFront_37
+  - first:
+      213: 7470141346509162445
+    second: BowFront_38
+  - first:
+      213: 6779978996757051162
+    second: BowFront_39
+  - first:
+      213: 3675549871069820084
+    second: BowFront_40
+  - first:
+      213: -3248169225455150693
+    second: BowFront_41
+  - first:
+      213: -3584351448584853090
+    second: BowFront_42
+  - first:
+      213: 6448191497884823792
+    second: BowFront_43
+  - first:
+      213: 6299426934355886898
+    second: BowFront_44
+  - first:
+      213: 6490918230796932224
+    second: BowFront_45
+  - first:
+      213: -8085033465549176293
+    second: BowFront_46
+  - first:
+      213: -5974801091728588537
+    second: BowFront_47
+  - first:
+      213: 740761970921757088
+    second: BowFront_48
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -192,7 +339,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 62
+        y: 155
         width: 42
         height: 31
       alignment: 0
@@ -202,8 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a38c4dffe1051d0800000000000000
-      internalID: -3364154837510374837
+      spriteID: 0557df04724f92700800000000000000
+      internalID: 516212081741886800
       vertices: []
       indices: 
       edges: []
@@ -213,7 +360,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 62
+        y: 155
         width: 42
         height: 31
       alignment: 0
@@ -223,8 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faeb3bc6b205a4430800000000000000
-      internalID: 3767912185686376111
+      spriteID: d89acfaad4aa47710800000000000000
+      internalID: 1690163010728667533
       vertices: []
       indices: 
       edges: []
@@ -234,7 +381,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 62
+        y: 155
         width: 42
         height: 31
       alignment: 0
@@ -244,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7385e798e8d19840800000000000000
-      internalID: 5229199135846269823
+      spriteID: f8e2d7e9cc10ad5a0800000000000000
+      internalID: -6495877534184558961
       vertices: []
       indices: 
       edges: []
@@ -255,7 +402,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 126
-        y: 62
+        y: 155
         width: 42
         height: 31
       alignment: 0
@@ -265,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0123d77300a82ef80800000000000000
-      internalID: -8078743048013663728
+      spriteID: 84228c66220a294c0800000000000000
+      internalID: -4282184226062196152
       vertices: []
       indices: 
       edges: []
@@ -276,6 +423,552 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 168
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbdefc3d0a60d370800000000000000
+      internalID: 8345286714607983546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fdefb28a9ade00800000000000000
+      internalID: 1070337747810381880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a927fda895787d410800000000000000
+      internalID: 1501817819403088538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c670c29c63b640800000000000000
+      internalID: 5094534981036196986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126bcdc706ebfe30800000000000000
+      internalID: 4538473970697724433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f9102e8b5b24950800000000000000
+      internalID: 6431903023508856613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e5832e365bb5c0800000000000000
+      internalID: -4198667402708915808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e77f9b44c6bf2b0800000000000000
+      internalID: -5549723073370423757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_12
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 155
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b655a49a714406c80800000000000000
+      internalID: -8331584442220259989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e63a9ef440ea250800000000000000
+      internalID: 5957704098326474344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 124
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee36c1b6149b0f90800000000000000
+      internalID: -6986327571742441748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700b1dbcbfaa048f0800000000000000
+      internalID: -558258355360911353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 124
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0894f79cb7234a240800000000000000
+      internalID: 4802018609926719872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1991d84e7f50a15e0800000000000000
+      internalID: -1938230127380063855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becf6c33e534ff130800000000000000
+      internalID: 3602672298794351851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288dc3a789d81fcc0800000000000000
+      internalID: -3679003734559631230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad81648004082390800000000000000
+      internalID: -7843014350798221918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e736794dd59dee0800000000000000
+      internalID: -1235853455082160588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9993cef525ea3e30800000000000000
+      internalID: 4484148330351532446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b560129539a016a0800000000000000
+      internalID: -6480493816237234761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_24
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c33cbc5e4ee5200800000000000000
+      internalID: 170825511503871048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e8d8f56caf61a0800000000000000
+      internalID: -6814038157221632793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ec8a7ee628c5100800000000000000
+      internalID: 98096704739921474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aae5e15f307eff0800000000000000
+      internalID: -7032523106375110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_28
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b2d368a9c69340800000000000000
+      internalID: 4870301772114211934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 93
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7cea6a222a1460800000000000000
+      internalID: 7213115318765124630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_30
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 62
         width: 42
         height: 31
@@ -286,14 +979,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d3ed2bfe4229350800000000000000
-      internalID: 6021916263664467359
+      spriteID: 751adac5e1516ddc0800000000000000
+      internalID: -3614678430770159273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_5
+      name: BowFront_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 62
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975488bc88d28520800000000000000
+      internalID: 2702960825278420885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 62
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7e9a0bb4411d520800000000000000
+      internalID: 2724981564854888431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 62
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ae5f4a184ad57e0800000000000000
+      internalID: -1775081801388791233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 62
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5765d5c496d2b19d0800000000000000
+      internalID: -2802596412832000395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_35
       rect:
         serializedVersion: 2
         x: 210
@@ -307,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b068d99154541850800000000000000
-      internalID: 6346790484322050226
+      spriteID: 0b433d9bfa7c45540800000000000000
+      internalID: 4995837444211553456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_6
+      name: BowFront_36
       rect:
         serializedVersion: 2
         x: 252
@@ -328,140 +1105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e99bb38ca5d0c560800000000000000
-      internalID: 7332095130280368609
+      spriteID: 22f26f1dddf3ca410800000000000000
+      internalID: 1489635798695685922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_7
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f6de4cf092e15cd0800000000000000
-      internalID: -2571024799915649295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_8
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba8108d0124eddba0800000000000000
-      internalID: -6062438692759267157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_9
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62b18f46ff31d1170800000000000000
-      internalID: 8150692888242035494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_10
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ceeafd29fd53a9da0800000000000000
-      internalID: -5937373924376465684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_11
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c22c6715e7c0a67c0800000000000000
-      internalID: -4077432775958412756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_12
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 62
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4248ab2d3d99178e0800000000000000
-      internalID: -1697406449489378268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_13
+      name: BowFront_37
       rect:
         serializedVersion: 2
         x: 0
@@ -475,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b433638fb80a6a0800000000000000
-      internalID: -6439993568962327733
+      spriteID: b8809a37d37993b40800000000000000
+      internalID: 5420529916706359435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_14
+      name: BowFront_38
       rect:
         serializedVersion: 2
         x: 42
@@ -496,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ce95cf24286dc10800000000000000
-      internalID: 2077991502291266619
+      spriteID: dc703a4e9f54ba760800000000000000
+      internalID: 7470141346509162445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_15
+      name: BowFront_39
       rect:
         serializedVersion: 2
         x: 84
@@ -517,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed33a1a9f71ea5f0800000000000000
-      internalID: -743630527543427611
+      spriteID: a173056c9f2571e50800000000000000
+      internalID: 6779978996757051162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_16
+      name: BowFront_40
       rect:
         serializedVersion: 2
         x: 126
@@ -538,14 +1189,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00a784b9df11a2e0800000000000000
-      internalID: -2116375329990270964
+      spriteID: 4b47953422d220330800000000000000
+      internalID: 3675549871069820084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_17
+      name: BowFront_41
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 31
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d36a8c4f2ce2d0800000000000000
+      internalID: -3248169225455150693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 31
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9961f42953d14ec0800000000000000
+      internalID: -3584351448584853090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_43
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 31
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07e1bd0049c7950800000000000000
+      internalID: 6448191497884823792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BowFront_44
       rect:
         serializedVersion: 2
         x: 0
@@ -559,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bd5f3ed8e13366b0800000000000000
-      internalID: -5304341059881443920
+      spriteID: 2338fc6cb6f0c6750800000000000000
+      internalID: 6299426934355886898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_18
+      name: BowFront_45
       rect:
         serializedVersion: 2
         x: 42
@@ -580,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfafabb77638a0a70800000000000000
-      internalID: 8793985702875036412
+      spriteID: 08412c49dbf541a50800000000000000
+      internalID: 6490918230796932224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_19
+      name: BowFront_46
       rect:
         serializedVersion: 2
         x: 84
@@ -601,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30ae5becc33647010800000000000000
-      internalID: 1185681714722499075
+      spriteID: b12cbc046e03ccf80800000000000000
+      internalID: -8085033465549176293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_20
+      name: BowFront_47
       rect:
         serializedVersion: 2
         x: 126
@@ -622,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b678d7cfcb141180800000000000000
-      internalID: -9145654364057602384
+      spriteID: 701c6eb101e351da0800000000000000
+      internalID: -5974801091728588537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BowFront_21
+      name: BowFront_48
       rect:
         serializedVersion: 2
         x: 168
@@ -643,176 +1357,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9070fe5a58d86d60800000000000000
-      internalID: 7883789030363525277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_22
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b72a9d6821dbac5f0800000000000000
-      internalID: -735567701852183941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_23
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f289baa0e29506eb0800000000000000
-      internalID: -4728681554456635345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_24
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 542bb33e09f1cc270800000000000000
-      internalID: 8272021322720850501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_25
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf66a96659f66ac0800000000000000
-      internalID: -3862125480888602661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_26
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4463b85db52dd7020800000000000000
-      internalID: 2341258673169053252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_27
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07643c9d727dd14e0800000000000000
-      internalID: -2009213292580223376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_28
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0756f7864a8aa45c0800000000000000
-      internalID: -4230383475879877264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BowFront_29
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 696f0864d0e620cd0800000000000000
-      internalID: -2593389432115497322
+      spriteID: 0a9d8eb7617b74a00800000000000000
+      internalID: 740761970921757088
       vertices: []
       indices: 
       edges: []
