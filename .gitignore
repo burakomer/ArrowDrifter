@@ -51,6 +51,8 @@ ExportedObj/
 # Unity3D generated file on crash reports
 sysinfo.txt
 
+
+
 # Builds
 *.apk
 *.unitypackage
@@ -58,3 +60,4 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/TouchDevUltimate/
