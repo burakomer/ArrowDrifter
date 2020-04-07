@@ -7,6 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(PhysicsController2D))]
 public class CharacterMovement : CharacterAbility
 {
+    public Transform scarf;
     public float jumpHeight = 4;
     public float timeToJumpApex = .4f;
     public float stompSpeed = 2;
@@ -93,6 +94,8 @@ public class CharacterMovement : CharacterAbility
         _character.model.SetBool("Grounded", _controller2d.collisions.below);
 
         TweeningAnimations();
+
+        scarf.position = transform.position + (Vector3.up * 0.85f);
     }
 
     #region Tweening

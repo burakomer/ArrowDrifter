@@ -12,6 +12,11 @@ public class CharacterWeaponUser : CharacterAbility
     [Header("Inputs")]
     public string weaponInput;
 
+    protected override void Init()
+    {
+        equippedWeapon.SetUser(GetComponent<Character>());
+    }
+
     public override void OnGesture(string name, GestureType type)
     {
         if (name == weaponInput && type == GestureType.Tap)

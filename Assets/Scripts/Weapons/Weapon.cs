@@ -12,9 +12,9 @@ public class Weapon : MonoBehaviour
     private Character _character;
     private CharacterWeaponUser _user;
 
-    private void Start()
+    public void SetUser(Character userCharacter)
     {
-        _character = transform.parent.parent.GetComponent<Character>();
+        _character = userCharacter;
         _user = _character.GetComponent<CharacterWeaponUser>();
     }
 
