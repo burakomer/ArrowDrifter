@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9d46d5d74dfb54e93634eb28e1fc62, type: 3}
+  m_Name: Shooting_BowFront
+  m_EditorClassIdentifier: 
+  animName: Shooting
+  framesPerSecond: 20
+  loop: 1
+  sprites:
+  - {fileID: -5304341059881443920, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: 8793985702875036412, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -9145654364057602384, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: 7883789030363525277, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -735567701852183941, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -4728681554456635345, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: 8272021322720850501, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -3862125480888602661, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: 2341258673169053252, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -4230383475879877264, guid: b30e02cedbea962458f780038e134657, type: 3}
+  - {fileID: -2593389432115497322, guid: b30e02cedbea962458f780038e134657, type: 3}

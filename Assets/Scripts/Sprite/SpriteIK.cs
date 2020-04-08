@@ -7,7 +7,10 @@ public class SpriteIK : MonoBehaviour
 {
     public Vector3 anchorOffset;
     public Vector3 leanDirection;
+    public float wiggleMultiplier;
+    public float wiggleTimeOffset;
     public float tweenTime;
+    public float startTimeOffset;
 
     private float radius;
 
@@ -25,7 +28,12 @@ public class SpriteIK : MonoBehaviour
         }
         radius = sprites[0].sprite.bounds.size.y; //radius of *black circle*
 
-        StartCoroutine(UpDownTween(tweenTime * 10));
+        StartCoroutine(UpDownTween(tweenTime * wiggleTimeOffset));
+    }
+
+    public void UpdatePosition(int newPosX)
+    {
+        transform.position += new Vector3Int(newPosX, 0, 0);
     }
 
     private void LateUpdate()
@@ -51,9 +59,8 @@ public class SpriteIK : MonoBehaviour
             }
             else
             {
-                
                 //sprites[i].transform.localPosition = newLocation + anchorOffset + leanDirection;
-                LeanTween.moveLocal(sprites[i].gameObject, newLocation + anchorOffset + leanDirection, tweenTime).setEase(LeanTweenType.easeOutQuad);
+                LeanTween.moveLocal(sprites[i].gameObject, newLocation + Vector3.ClampMagnitude(anchorOffset + leanDirection, radius / 1.01f), tweenTime).setEase(LeanTweenType.easeOutQuad);
             }
         }
 
@@ -70,27 +77,27 @@ public class SpriteIK : MonoBehaviour
 
                 Vector3 fromOriginToObject = newLocation - centerPosition; //~GreenPosition~ - *BlackCenter*
                 fromOriginToObject *= radius / distance; //Multiply by radius //Divide by Distance
-                newLocation = centerPosition + fromOriginToObject; //*BlackCenter* + all that Math
+                newLocation = centerPosition + fromOriginToObject / 1.01f; //*BlackCenter* + all that Math
                 //LeanTween.moveLocal(sprites[i].gameObject, newLocation + anchorOffset, tweenTime).setEase(LeanTweenType.easeOutSine);
                 sprites[i].transform.localPosition = newLocation;
 
             }
             else
             {
-
                 //sprites[i].transform.localPosition = newLocation + anchorOffset + leanDirection;
-                LeanTween.moveLocal(sprites[i].gameObject, newLocation + anchorOffset + leanDirection, tweenTime).setEase(LeanTweenType.easeOutQuad);
+                LeanTween.moveLocal(sprites[i].gameObject, newLocation + Vector3.ClampMagnitude(anchorOffset + leanDirection, radius / 1.01f), tweenTime).setEase(LeanTweenType.easeOutQuad);
             }
         }
     }
 
     private IEnumerator UpDownTween(float delay)
     {
+        yield return new WaitForSeconds(startTimeOffset);
         while (true)
         {
             LeanTween.cancel(sprites[0].gameObject);
-            LeanTween.value(sprites[0].gameObject, anchorOffset, Vector3.up * 0.1f, delay)
-                .setEase(LeanTweenType.easeOutSine)
+            LeanTween.value(sprites[0].gameObject, anchorOffset, Vector3.up * wiggleMultiplier, delay)
+                .setEase(LeanTweenType.easeInOutSine)
                 .setOnUpdate((Vector3 v3) => 
                 {
                     anchorOffset = v3;
@@ -98,8 +105,8 @@ public class SpriteIK : MonoBehaviour
             //LeanTween.move(sprites[0].gameObject, Vector2.up * 0.4f, delay).setEase(LeanTweenType.easeInOutSine);
             yield return new WaitForSeconds(delay);
             LeanTween.cancel(sprites[0].gameObject);
-            LeanTween.value(sprites[0].gameObject, anchorOffset, Vector3.down * 0.1f, delay)
-                .setEase(LeanTweenType.easeInSine)
+            LeanTween.value(sprites[0].gameObject, anchorOffset, Vector3.down * wiggleMultiplier, delay)
+                .setEase(LeanTweenType.easeInOutSine)
                 .setOnUpdate((Vector3 v3) =>
                 {
                     anchorOffset = v3;

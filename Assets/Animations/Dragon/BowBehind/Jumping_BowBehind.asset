@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9d46d5d74dfb54e93634eb28e1fc62, type: 3}
+  m_Name: Jumping_BowBehind
+  m_EditorClassIdentifier: 
+  animName: Jumping
+  framesPerSecond: 20
+  loop: 1
+  sprites:
+  - {fileID: -4396774189728189406, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -3803580078881457785, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -4687458362850423173, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -7527919187783694517, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -1526296605238320866, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -4069979104468295748, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 3850922807087218104, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}

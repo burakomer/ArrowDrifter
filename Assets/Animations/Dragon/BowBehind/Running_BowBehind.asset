@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9d46d5d74dfb54e93634eb28e1fc62, type: 3}
+  m_Name: Running_BowBehind
+  m_EditorClassIdentifier: 
+  animName: Running
+  framesPerSecond: 20
+  loop: 1
+  sprites:
+  - {fileID: -2301454307035113426, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 5485862695580611643, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 4737090951743395625, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 4364474119680640652, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 5370767877006502163, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 4044244737078924393, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 2868790020521323680, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 6305600764032206708, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 2241009227790773092, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 1550578773510419637, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 269868392010738763, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: -4372632430075934015, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}
+  - {fileID: 1426958323200731259, guid: a51be7937d905ba4797001a0e3d5574d, type: 3}

@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class PhysicsController2D : MonoBehaviour
 {
-    private const float skinWidth = .015f;
-    private const float minJumpDistance = 1f;
+    private const float skinWidth = 1f;
+    private const float minJumpDistance = 3f;
     
     public int horizontalRayCount = 4;
     public int verticalRayCount = 4;

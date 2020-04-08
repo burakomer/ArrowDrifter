@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using TouchDevUltimate;
-using TouchDevUltimate.Gameplay.Character;
+using TouchDevUltimate.Gameplay.Characters;
 using UnityEngine;
 
 public class CharacterWeaponUser : CharacterAbility

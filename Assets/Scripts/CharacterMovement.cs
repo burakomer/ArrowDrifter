@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TouchDevUltimate;
-using TouchDevUltimate.Gameplay.Character;
+using TouchDevUltimate.Gameplay.Characters;
 using UnityEngine;
 
 [RequireComponent(typeof(PhysicsController2D))]
 public class CharacterMovement : CharacterAbility
 {
     public Transform scarf;
+    public Transform scarf2;
+
     public float jumpHeight = 4;
     public float timeToJumpApex = .4f;
     public float stompSpeed = 2;
     public float moveSpeed = 6;
-    public float accelerationTimeAirborne = .2f;
-    public float accelerationTimeGrounded = .1f;
 
     [Header("Inputs")]
     public string movementInput;
@@ -26,10 +26,10 @@ public class CharacterMovement : CharacterAbility
     private bool stompInitiated;
 
     private Vector3 velocity;
-    private Vector3 actualVelocity;
+    [HideInInspector] public Vector3 actualVelocity;
     private float velocityXSmoothing;
     
-    private PhysicsController2D _controller2d;
+    [HideInInspector] public PhysicsController2D _controller2d;
 
     protected override void Init()
     {
@@ -37,6 +37,9 @@ public class CharacterMovement : CharacterAbility
         
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
+
+        scarf.position = transform.position + (Vector3Int.up * 13) + Vector3Int.right;
+        scarf2.position = scarf.position;
     }
 
     protected override void UpdateAbility()
@@ -68,15 +71,17 @@ public class CharacterMovement : CharacterAbility
             stompInitiated = false;
         }
 
-        //if (Input.GetKeyDown(KeyCode.UpArrow) && !jumpConsumed)
-        //{
-        //    velocity.y = jumpVelocity;
-        //    jumpConsumed = true;
-        //}
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !jumpConsumed)
+        {
+            velocity.y = jumpVelocity;
+            jumpConsumed = true;
+        }
+
+        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         //float targetVelocityX = input.x * moveSpeed;
         //velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (_controller2d.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
-        //velocity.x = input.x * moveSpeed;
+        velocity.x = input.x * moveSpeed;
 
         velocity.y += gravity * Time.deltaTime;
         actualVelocity = _controller2d.Move(velocity * Time.deltaTime) / Time.deltaTime;
@@ -89,13 +94,15 @@ public class CharacterMovement : CharacterAbility
 
     protected override void UpdateAnimator()
     {
-        _character.model.SetFloat("VerticalVelocity", actualVelocity.y);
-        _character.model.SetBool("Running", velocity.x != 0);
-        _character.model.SetBool("Grounded", _controller2d.collisions.below);
+        //_character.model.SetFloat("VerticalVelocity", actualVelocity.y);
+        //_character.model.SetBool("Running", velocity.x != 0);
+        //_character.model.SetBool("Grounded", _controller2d.collisions.below);
+
 
         TweeningAnimations();
 
-        scarf.position = transform.position + (Vector3.up * 0.85f);
+        scarf.position = transform.position + (Vector3Int.up * 13) + Vector3Int.right;
+        scarf2.position = scarf.position; 
     }
 
     #region Tweening

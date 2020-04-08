@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9d46d5d74dfb54e93634eb28e1fc62, type: 3}
+  m_Name: Shooting_ArmFront
+  m_EditorClassIdentifier: 
+  animName: Shooting
+  framesPerSecond: 20
+  loop: 1
+  sprites:
+  - {fileID: -8083376509329492982, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: 5894600256182840858, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: -8329013155910412448, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: -1734541137277507666, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: 4505082413771275493, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: -3322105351607965534, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: -4405348120118484951, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: 7829887375188229091, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: 7639001795844411721, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: -4854732048691187644, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}
+  - {fileID: 7123774482058368909, guid: 5dcde4e53ff03f349a48e2f8cfb3f844, type: 3}

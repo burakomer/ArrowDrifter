@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TouchDevUltimate.Gameplay.Character;
+using TouchDevUltimate.Gameplay.Characters;
 using UnityEngine;
 
 public class CharacterModel : MonoBehaviour

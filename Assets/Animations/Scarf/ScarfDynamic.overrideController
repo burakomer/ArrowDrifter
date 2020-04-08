@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScarfDynamic
+  m_Controller: {fileID: 9100000, guid: 899314616b5255b4f9e11825fba96e3a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f510f94c13ac6644287887c07900d94b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 58fd07e9820502843ac269a2634be290, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d015d251e25ab8b4dafad4e232c47841, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5a76b8b9e88c4954d80258b96918efa8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e1324ab8c9a04f4989b1dd1bee7a9b3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 73e76523cead5e7418df96296f4d03a8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0d53d018c151c5f459103b7c6e2604e0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ef7eeb8e6fc6324ba1baa78bdc9edd2, type: 2}

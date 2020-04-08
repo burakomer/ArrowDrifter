@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9d46d5d74dfb54e93634eb28e1fc62, type: 3}
+  m_Name: Falling_Legs
+  m_EditorClassIdentifier: 
+  animName: Falling
+  framesPerSecond: 20
+  loop: 0
+  sprites:
+  - {fileID: -5805419261369303576, guid: d4840eb22f9d7124db8bc27a4494116f, type: 3}
+  - {fileID: 7097488155957077702, guid: d4840eb22f9d7124db8bc27a4494116f, type: 3}
+  - {fileID: 5063390466198107520, guid: d4840eb22f9d7124db8bc27a4494116f, type: 3}
+  - {fileID: -4234812036658670333, guid: d4840eb22f9d7124db8bc27a4494116f, type: 3}
+  - {fileID: -2455812434960590265, guid: d4840eb22f9d7124db8bc27a4494116f, type: 3}

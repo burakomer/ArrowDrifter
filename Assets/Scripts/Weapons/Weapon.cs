@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TouchDevUltimate.Gameplay.Character;
+using TouchDevUltimate.Gameplay.Characters;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -20,19 +20,19 @@ public class Weapon : MonoBehaviour
 
     private void Update()
     {
-        _character.model.SetFloat("ShootSpeed", shootSpeed);
+        //_character.model.SetFloat("ShootSpeed", shootSpeed);
     }
 
     public void ShootRequest()
     {
-        _character.model.SetTrigger("ShootRequest");
+        //_character.model.SetTrigger("ShootRequest");
     }
 
     #region Animation functions
     public void ShootStart()
     {
         shooting = true;
-        _character.model.SetBool("Shooting", shooting);
+        //_character.model.SetBool("Shooting", shooting);
 
         _user.weaponModel.ScaleTween(new Vector3(1, 0.8f, 1), 0.2f, LeanTweenType.easeInSine);
     }
@@ -57,15 +57,15 @@ public class Weapon : MonoBehaviour
     public IEnumerator ShotDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        _character.model.SetTrigger("Shot");
+        //_character.model.SetTrigger("Shot");
     }
 
     public void ShootEnd()
     {
         shooting = false;
-        _character.model.SetBool("Shooting", shooting);
-        _character.model.SetTrigger("ShootEnd");
-        _character.model.ResetTrigger("Shot");
+        //_character.model.SetBool("Shooting", shooting);
+        //_character.model.SetTrigger("ShootEnd");
+        //_character.model.ResetTrigger("Shot");
 
         _user.weaponModel.ScaleTween(Vector3.one, 0.1f, LeanTweenType.easeOutCirc);
     }
