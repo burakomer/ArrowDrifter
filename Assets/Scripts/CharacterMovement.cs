@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TouchDevUltimate;
-using TouchDevUltimate.Gameplay.Characters;
+using TouchDevUltimate.Gameplay;
 using UnityEngine;
 
 [RequireComponent(typeof(PhysicsController2D))]
